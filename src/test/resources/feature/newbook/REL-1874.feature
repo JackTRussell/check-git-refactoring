@@ -1,4 +1,4 @@
-@ST_958464366 @tagtagtag @this_is_story_tag @this-is-another-tag-very-new-and-vey-beautiful
+@tagtagtag @this_is_story_tag @this-is-another-tag-very-new-and-vey-beautiful @ST_298155663
 Feature: name
 I want to see new description
 
@@ -6,7 +6,7 @@ Background:
 
 Given there is some background
 
-@first_scenario_tag @SC_692955202
+@first_scenario_tag @SC_300663019
 Scenario: First scenario
 There is scenario description
 Lorem ipsum dolor sit amet, mea dico volumus copiosae cu, debet movet doctus ex nec, at adipisci interpretaris usu. Has feugiat ponderum te. Pri nisl case id, te est diam sint regione, in alii philosophia sit. Ius ancillae voluptaria cu. Ut eam dicta partiendo.
@@ -23,7 +23,7 @@ Some description
 Given I created scenario
 Then I see it in Relime
 
-@third_scenario_tag @SC_740559197
+@third_scenario_tag @SC_306286251
 Scenario Outline: Third scenario
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -41,7 +41,7 @@ Examples:
 |stive|4|45000.0|
 
 
-@fourth_scenario_tag @SC_695556767
+@fourth_scenario_tag @SC_297058878
 Scenario: Fourth scenario
 Given I created new scenario
 Then I see it synced in Relime
@@ -49,43 +49,43 @@ And the salary management system is initialized with the following data
 And the customer searches for books published between 6 and 7
 And something more
 
-@SC_976932738
+@SC_274270169
 Scenario: 
 Given some given
 When do something
 Then I do..
 
-@SC_971386832
+@SC_314438209
 Scenario: 
 Given some given
 When do something
 Then I do..d
 
-@SC_1023578876
+@SC_277035930
 Scenario: 
 Given some given
 When do something
 Then I do..a
 
-@SC_1001404046
+@SC_288059470
 Scenario: 
 Given some given
 When do something
 Then I do..aaa
 
-@SC_1022461942
+@SC_349967975
 Scenario: 
 Given some given
 When do something
 Then I do..1
 
-@SC_55158504
+@SC_346003005
 Scenario: 
 Given some given
 When do something
 Then I do..111
 
-@SC_39813462
+@SC_286448351
 Scenario: 
 Given some given
 When do something
