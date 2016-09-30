@@ -1,7 +1,7 @@
-@ST_695502253
+@ST_401986205
 Feature: Saving mode
 
-@SC_701598071
+@SC_393934404
 Scenario Outline: Saving mode item on Project Settings page
 Given I'm logged in as <user>
 When I'm on page Project Settings
@@ -15,7 +15,7 @@ Examples:
 |TM|
 
 
-@SC_665606400
+@SC_336521437
 Scenario Outline: Control to choose saving mode
 Given I'm logged in as <user>
 And I'm on page Project Settings
