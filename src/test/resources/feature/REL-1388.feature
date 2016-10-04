@@ -8,19 +8,19 @@ And Direct mode is selected
 And I'm on page Editor
 When I created new scenario
 And I clicked on button 'Save'
-Then I see scenario in GIT
+Then I see scenario in Jira
 When I added steps to scenario
 And I clicked on button 'Save'
-Then I see changed scenario in GIT
+Then I see changed scenario in Jira
 When I added tags to scenario
 And I click on button 'Save'
-Then I see changes is GIT
+Then I see changes is Jira
 When I added description
 And I clicked on button 'Save'
-Then I see changes in GIT
+Then I see changes in Jira
 When I added example table to scenario
 And I clicked on button 'Save'
-Then I see changes in GIT
+Then I see changes in Jira
 
 Examples: 
 |user|
