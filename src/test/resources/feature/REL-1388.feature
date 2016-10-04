@@ -1,26 +1,11 @@
 @ST_892805736
 Feature: Saving mode
 
-@SC_1064551041
-Scenario Outline: Saving scenario data to VCS with Direct mode
-Given I'm logged in as <user>
+@SC_251922553
+Scenario Outline: Direct mode for TTS
+Given I’m logged in as <user>
 And Direct mode is selected
 And I'm on page Editor
-When I created new scenario
-And I clicked on button 'Save'
-Then I see scenario in GIT
-When I added steps to scenario
-And I clicked on button 'Save'
-Then I see changed scenario in GIT
-When I added tags to scenario
-And I click on button 'Save'
-Then I see changes is GIT
-When I added description
-And I clicked on button 'Save'
-Then I see changes in GIT
-When I added example table to scenario
-And I clicked on button 'Save'
-Then I see changes in GIT
 
 Examples: 
 |user|
@@ -93,6 +78,32 @@ When I moved created feature from folder
 Then I see changes in GIT
 When I deleted feature
 Then I see it was deleted from GIT
+
+Examples: 
+|user|
+|DO|
+|PM|
+
+@SC_1064551041
+Scenario Outline: Saving scenario data to VCS with Direct mode
+Given I'm logged in as <user>
+And Direct mode is selected
+And I'm on page Editor
+When I created new scenario
+And I clicked on button 'Save'
+Then I see scenario in GIT
+When I added steps to scenario
+And I clicked on button 'Save'
+Then I see changed scenario in GIT
+When I added tags to scenario
+And I click on button 'Save'
+Then I see changes is GIT
+When I added description
+And I clicked on button 'Save'
+Then I see changes in GIT
+When I added example table to scenario
+And I clicked on button 'Save'
+Then I see changes in GIT
 
 Examples: 
 |user|
