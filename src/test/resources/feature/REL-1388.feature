@@ -2,8 +2,8 @@
 Feature: Saving mode
 
 @SC_1064551041
-Scenario: Saving scenario data to VCS with Direct mode
-Given I'm logged in as DO
+Scenario Outline: Saving scenario data to VCS with Direct mode
+Given I'm logged in as <user>
 And Direct mode is selected
 And I'm on page Editor
 When I created new scenario
@@ -12,6 +12,11 @@ Then I see scenario in GIT
 When I added steps to scenario
 And I clicked on button 'Save'
 Then I see changed scenario in GIT
+
+Examples: 
+|user|
+|DO|
+|PM|
 
 @SC_972438093
 Scenario Outline: Saving mode item on Project Settings page
