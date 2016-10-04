@@ -18,6 +18,9 @@ Then I see changes is GIT
 When I added description
 And I clicked on button 'Save'
 Then I see changes in GIT
+When I added example table to scenario
+And I clicked on button 'Save'
+Then I see changes in GIT
 
 Examples: 
 |user|
