@@ -1,23 +1,16 @@
 @ST_892805736
 Feature: Saving mode
 
-@SC_251922553
-Scenario Outline: Direct mode for TTS
-Given I’m logged in as <user>
-And Direct mode is selected
+@SC_721011751
+Scenario Outline: Requiring Confirmation mode
+Given I'm logged in as <user>
+And I selected Requiring Confirmation mode
 And I'm on page Editor
-But I can't see tab 'Feature Management' on left panel
-When I added new feature
-Then I see it in Jira
-When I renamed feature
-And I clicked on confirmation button
-Then I see changes in Jira
-When I changed tags in feature
-And I clicked on confirmation button
-Then I see changes in Jira
-When I changed feature description
-And I clicked on confirmation button
-Then I see changes in Jira
+When I performed changes is Relime
+Then I can't find changes in GIT
+And I can't find changes in Jira
+When I navigate to page Feature Management
+And I click on button
 
 Examples: 
 |user|
@@ -117,6 +110,29 @@ Then I see changes in GIT
 When I added example table to scenario
 And I clicked on button 'Save'
 Then I see changes in GIT
+
+Examples: 
+|user|
+|DO|
+|PM|
+
+@SC_251922553
+Scenario Outline: Direct mode for TTS
+Given I’m logged in as <user>
+And Direct mode is selected
+And I'm on page Editor
+But I can't see tab 'Feature Management' on left panel
+When I added new feature
+Then I see it in Jira
+When I renamed feature
+And I clicked on confirmation button
+Then I see changes in Jira
+When I changed tags in feature
+And I clicked on confirmation button
+Then I see changes in Jira
+When I changed feature description
+And I clicked on confirmation button
+Then I see changes in Jira
 
 Examples: 
 |user|
