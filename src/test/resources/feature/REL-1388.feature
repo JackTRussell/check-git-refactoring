@@ -1,32 +1,6 @@
 @ST_892805736
 Feature: Saving mode
 
-@SC_840726920
-Scenario Outline: saving scenario data to TTS with Direct mode
-Given I'm logged in as <user>
-And Direct mode is selected
-And I'm on page Editor
-When I created new scenario
-And I clicked on button 'Save'
-Then I see scenario in Jira
-When I added steps to scenario
-And I clicked on button 'Save'
-Then I see changed scenario in Jira
-When I added tags to scenario
-And I click on button 'Save'
-Then I see changes is Jira
-When I added description
-And I clicked on button 'Save'
-Then I see changes in Jira
-When I added example table to scenario
-And I clicked on button 'Save'
-Then I see changes in Jira
-
-Examples: 
-|user|
-|DO|
-|PM|
-
 @SC_972438093
 Scenario Outline: Saving mode item on Project Settings page
 Given I'm logged in as <user>
@@ -140,6 +114,32 @@ And I clicked on confirmation button
 Then I see changes in Jira
 When I changed feature description
 And I clicked on confirmation button
+Then I see changes in Jira
+
+Examples: 
+|user|
+|DO|
+|PM|
+
+@SC_840726920
+Scenario Outline: saving scenario data to TTS with Direct mode
+Given I'm logged in as <user>
+And Direct mode is selected
+And I'm on page Editor
+When I created new scenario
+And I clicked on button 'Save'
+Then I see scenario in Jira
+When I added steps to scenario
+And I clicked on button 'Save'
+Then I see changed scenario in Jira
+When I added tags to scenario
+And I click on button 'Save'
+Then I see changes is Jira
+When I added description
+And I clicked on button 'Save'
+Then I see changes in Jira
+When I added example table to scenario
+And I clicked on button 'Save'
 Then I see changes in Jira
 
 Examples: 
