@@ -1,22 +1,25 @@
 @ST_892805736
 Feature: Saving mode
 
-@SC_251922553
-Scenario Outline: Direct mode for TTS
-Given I’m logged in as <user>
+@SC_840726920
+Scenario Outline: Saving scenario data to TTS with Direct mode
+Given I'm logged in as <user>
 And Direct mode is selected
 And I'm on page Editor
-But I can't see tab 'Feature Management' on left panel
-When I added new feature
-Then I see it in Jira
-When I renamed feature
-And I clicked on confirmation button
+When I created new scenario
+And I clicked on button 'Save'
+Then I see scenario in Jira
+When I added steps to scenario
+And I clicked on button 'Save'
+Then I see changed scenario in Jira
+When I added tags to scenario
+And I click on button 'Save'
+Then I see changes is Jira
+When I added description
+And I clicked on button 'Save'
 Then I see changes in Jira
-When I changed tags in feature
-And I clicked on confirmation button
-Then I see changes in Jira
-When I changed feature description
-And I clicked on confirmation button
+When I added example table to scenario
+And I clicked on button 'Save'
 Then I see changes in Jira
 
 Examples: 
@@ -126,31 +129,29 @@ Examples:
 |PM|
 |TM|
 
-@SC_840726920
-Scenario Outline: saving scenario data to TTS with Direct mode
-Given I'm logged in as <user>
+@SC_251922553
+Scenario Outline: Direct mode for TTS
+Given I’m logged in as <user>
 And Direct mode is selected
 And I'm on page Editor
-When I created new scenario
-And I clicked on button 'Save'
-Then I see scenario in Jira
-When I added steps to scenario
-And I clicked on button 'Save'
-Then I see changed scenario in Jira
-When I added tags to scenario
-And I click on button 'Save'
-Then I see changes is Jira
-When I added description
-And I clicked on button 'Save'
+But I can't see tab 'Feature Management' on left panel
+When I added new feature
+Then I see it in Jira
+When I renamed feature
+And I clicked on confirmation button
 Then I see changes in Jira
-When I added example table to scenario
-And I clicked on button 'Save'
+When I changed tags in feature
+And I clicked on confirmation button
+Then I see changes in Jira
+When I changed feature description
+And I clicked on confirmation button
 Then I see changes in Jira
 
 Examples: 
 |user|
 |DO|
 |PM|
+|TM|
 
 @SC_721011751
 Scenario Outline: Requiring Confirmation mode
