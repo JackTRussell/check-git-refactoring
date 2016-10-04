@@ -12,6 +12,12 @@ Then I see scenario in GIT
 When I added steps to scenario
 And I clicked on button 'Save'
 Then I see changed scenario in GIT
+When I added tags to scenario
+And I click on button 'Save'
+Then I see changes is GIT
+When I added description
+And I clicked on button 'Save'
+Then I see changes in GIT
 
 Examples: 
 |user|
