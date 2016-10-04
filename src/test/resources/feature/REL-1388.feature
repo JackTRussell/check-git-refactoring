@@ -87,20 +87,6 @@ Examples:
 |TM|
 
 
-@SC_1030813946
-Scenario Outline: Control to choose saving mode
-Given I'm logged in as <user>
-And I'm on page Project Settings
-When I click on Saving mode control
-Then I see <action>
-
-Examples: 
-|user|action|
-|DO|dropdown is expanded|
-|PM|dropdown is expanded|
-|TM|nothing happened|
-
-
 @SC_1056570122
 Scenario Outline: Saving mode tooltips
 Given I’m logged as <user>
