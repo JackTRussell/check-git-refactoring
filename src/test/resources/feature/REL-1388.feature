@@ -1,17 +1,6 @@
 @ST_892805736
 Feature: Saving mode
 
-@SC_251922553
-Scenario Outline: Direct mode for TTS
-Given I’m logged in as <user>
-And Direct mode is selected
-And I'm on page Editor
-
-Examples: 
-|user|
-|DO|
-|PM|
-
 @SC_972438093
 Scenario Outline: Saving mode item on Project Settings page
 Given I'm logged in as <user>
@@ -104,6 +93,17 @@ Then I see changes in GIT
 When I added example table to scenario
 And I clicked on button 'Save'
 Then I see changes in GIT
+
+Examples: 
+|user|
+|DO|
+|PM|
+
+@SC_251922553
+Scenario Outline: Direct mode for TTS
+Given I’m logged in as <user>
+And Direct mode is selected
+And I'm on page Editor
 
 Examples: 
 |user|
