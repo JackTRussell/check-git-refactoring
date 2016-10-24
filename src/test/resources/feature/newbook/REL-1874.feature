@@ -1,4 +1,4 @@
-@ST_11239 @tagtagtag @this_is_story_tag @this-is-another-tag-very-new-and-vey-beautiful
+@ST_2321 @tagtagtag @this_is_story_tag @this-is-another-tag-very-new-and-vey-beautiful
 Feature: name
 I want to see new description
 
@@ -6,7 +6,7 @@ Background:
 
 Given there is some background
 
-@SC_47040 @first_scenario_tag
+@SC_16618 @first_scenario_tag
 Scenario: First scenario
 There is scenario description
 Lorem ipsum dolor sit amet, mea dico volumus copiosae cu, debet movet doctus ex nec, at adipisci interpretaris usu. Has feugiat ponderum te. Pri nisl case id, te est diam sint regione, in alii philosophia sit. Ius ancillae voluptaria cu. Ut eam dicta partiendo.
@@ -16,14 +16,14 @@ In mea tibique appetere perfecto, in iudico maluisset maiestatis usu. Augue disc
 Given I created scenario
 Then I see it in Relime
 
-@SC_47041 @second_scenario_tag
+@SC_16619 @second_scenario_tag
 Scenario: Second scenario
 Some description
 #comment
 Given I created scenario
 Then I see it in Relime
 
-@SC_47042 @third_scenario_tag
+@SC_16620 @third_scenario_tag
 Scenario Outline: Third scenario
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -41,7 +41,7 @@ Examples:
 |stive|4|45000.0|
 
 
-@SC_47043 @fourth_scenario_tag
+@SC_16621 @fourth_scenario_tag
 Scenario: Fourth scenario
 Given I created new scenario
 Then I see it synced in Relime
@@ -49,43 +49,43 @@ And the salary management system is initialized with the following data
 And the customer searches for books published between 6 and 7
 And something more
 
-@SC_47044
+@SC_16622
 Scenario: 
 Given some given
 When do something
 Then I do..
 
-@SC_47045
+@SC_16623
 Scenario: 
 Given some given
 When do something
 Then I do..d
 
-@SC_47046
+@SC_16624
 Scenario: 
 Given some given
 When do something
 Then I do..a
 
-@SC_47047
+@SC_16625
 Scenario: 
 Given some given
 When do something
 Then I do..aaa
 
-@SC_47048
+@SC_16626
 Scenario: 
 Given some given
 When do something
 Then I do..1
 
-@SC_47049
+@SC_16627
 Scenario: 
 Given some given
 When do something
 Then I do..111
 
-@SC_47050
+@SC_16628
 Scenario: 
 Given some given
 When do something
