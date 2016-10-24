@@ -1,7 +1,7 @@
-@ST_635997961
+@ST_11237
 Feature: Saving mode
 
-@SC_701447600
+@SC_47028
 Scenario Outline: Saving scenario data to TTS with Direct mode
 Given I'm logged in as <user>
 And Direct mode is selected
@@ -29,7 +29,7 @@ Examples:
 |TM|
 
 
-@SC_669999022
+@SC_47029
 Scenario Outline: Saving mode item on Project Settings page
 Given I'm logged in as <user>
 When I'm on page Project Settings
@@ -43,7 +43,7 @@ Examples:
 |TM|
 
 
-@SC_681770298
+@SC_47030
 Scenario Outline: Control to choose saving mode
 Given I'm logged in as <user>
 And I'm on page Project Settings
@@ -57,7 +57,7 @@ Examples:
 |TM|control is unclickable|
 
 
-@SC_703779886
+@SC_47031
 Scenario Outline: Saving mode tooltips
 Given I’m logged as <user>
 And I’m on page Project Settings
@@ -73,7 +73,7 @@ Examples:
 |PM|
 
 
-@SC_645067285
+@SC_47032
 Scenario Outline: Direct mode for VCS
 Given I’m logged in as <user>
 And I selected Direct mode
@@ -107,7 +107,7 @@ Examples:
 |TM|
 
 
-@SC_701251865
+@SC_47033
 Scenario Outline: Saving scenario data to VCS with Direct mode
 Given I'm logged in as <user>
 And Direct mode is selected
@@ -135,7 +135,7 @@ Examples:
 |TM|
 
 
-@SC_666135366
+@SC_47034
 Scenario Outline: Direct mode for TTS
 Given I’m logged in as <user>
 And Direct mode is selected
@@ -160,7 +160,7 @@ Examples:
 |TM|
 
 
-@SC_657504158
+@SC_47035
 Scenario Outline: Requiring Confirmation mode
 Given I'm logged in as <user>
 And I selected Requiring Confirmation mode
@@ -178,5 +178,3 @@ Examples:
 |user|
 |DO|
 |PM|
-
-

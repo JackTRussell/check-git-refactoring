@@ -1,4 +1,4 @@
-@ST_651155286
+@ST_11240
 Feature: Book-search
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
@@ -8,7 +8,7 @@ Given a $100 microwave was sold on 2015-11-03
 And today is 2016-08-23
 And new changes
 
-@Critical @Test_1 @SC_651447570
+@SC_47052 @Critical @Test_1
 Scenario: Search books by publication year
 changes
 Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
@@ -19,4 +19,3 @@ Then 2 books should have been found
 And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
-
