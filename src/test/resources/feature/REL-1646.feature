@@ -7,6 +7,7 @@ Scenario: First scenario
 Some description
 Given I created scenario qwerety
 Then I see it in Relime
+And hover Direct mode
 #changed
 
 @SC_50074
