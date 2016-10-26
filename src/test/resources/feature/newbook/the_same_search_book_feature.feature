@@ -7,14 +7,6 @@ Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@SC_49657 @d
-Scenario: scenario
-dd
-Given dddd
-And new change is added
-Then the salary management system is initialized with the following data
-But nothing changed
-
 @SC_49656 @Critical @Test_1
 Scenario: Search books by publication year
 Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
@@ -25,3 +17,11 @@ Then 2 books should have been found
 And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
+
+@SC_49657 @d
+Scenario: scenario
+dd
+Given dddd
+And new change is added
+Then the salary management system is initialized with the following data
+But nothing changed
