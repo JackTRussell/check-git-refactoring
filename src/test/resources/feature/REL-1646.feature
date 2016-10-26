@@ -2,10 +2,6 @@
 Feature: Some feature name
 There is some description
 
-Background: 
-Background description with changes
-Given some bg with changes
-
 @SC_50073 @thirdscenariotag
 Scenario: First scenario
 Some description
