@@ -6,6 +6,12 @@ Background:
 
 Given there is some background
 
+@SC_49651
+Scenario: 
+Given some given
+When do something
+Then I do..
+
 @SC_49642 @first_scenario_tag
 Scenario: First scenario
 There is scenario description
@@ -78,12 +84,6 @@ Scenario:
 Given some given
 When do something
 Then I do..1
-
-@SC_49651
-Scenario: 
-Given some given
-When do something
-Then I do..111
 
 @SC_49652
 Scenario: 
