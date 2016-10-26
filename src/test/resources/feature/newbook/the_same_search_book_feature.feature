@@ -25,3 +25,4 @@ Given dddd
 And new change is added
 Then the salary management system is initialized with the following data
 But nothing changed
+And I navigate to page Feature Management
