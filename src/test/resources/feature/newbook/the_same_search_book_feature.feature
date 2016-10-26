@@ -23,3 +23,4 @@ Scenario: scenario
 dd
 Given dddd
 And new change is added
+And I see it in Relime
