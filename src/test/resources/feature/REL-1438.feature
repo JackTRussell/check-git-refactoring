@@ -57,3 +57,9 @@ Scenario: aa
 aaades
 Given given
 When sss
+
+@SC_59898 @fds
+Scenario: ааа
+вввв
+Given sss
+When dff
