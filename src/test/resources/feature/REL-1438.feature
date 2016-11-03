@@ -23,3 +23,20 @@ Scenario: Second scenario
 Some new description
 Given I created scenario with comments
 Then I see them in scenario
+
+@SC_59894 @third_scenario_tag
+Scenario Outline: Third scenario
+Scenario with example table
+Given the salary management system is initialized with the following data
+When the boss increases the salary for the <user> with id <id> by 5%
+Then the payroll for the employee with <id> should display a salary of <salary>
+And i want save this string to Git
+And this string must be pulled from Git
+And this also must be re-stored on GIT!!!!
+And 34wteyeyy
+
+Examples: 
+|user|id|salary|
+|donald|1|60000.0|
+|dewie|2|62000.0|
+|mickey|3|35000.0|
